@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    text-align: center;
+    color:#40514E;
+}
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    border-color:black;
+    border-width:8px;
+    height:0px;
+    width:3%;
+    margin:50px auto;
+}
+.below-name{
+    font-size:1.5rem;
+    font-weight:normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom:10px;
+}
+h1{
+    margin-top:50px;
+    width:40%;
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-size:2.5rem;
+    font-weight:normal;
+    font-family: 'Rubik', sans-serif;
+    color: #1C315E;
+    padding-bottom:10px;
+}
+h3{
+    color: #82AAE3;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    line-height: 2;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    color: #66BFBF;
+    font-family: 'Rubik', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#ffffff;
+}
+.top-container{
+    background-color:#BFEAF5;
+    position:relative;
+    text-align:center;
+    padding:40px 0 0;
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+.middle-container{
+    margin:100px auto;
+}
+.bottom-container{
+    background-color:#BFEAF5;
+    position:relative;
+    margin:0 auto 0 auto;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.contact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+.copyright{
+    color: #82AAE3;
+    font-size:.75rem;
+    margin: 30px auto 0;
+}
+.top-cloud{
+    position:absolute;
+    top:100px;
+    right:200px;
+    width:15rem;
+}
+.bottom-cloud{
+    position:absolute;
+    top:200px;
+    left:150px;
+    width:15rem;
+}
+.realtor{
+    width:15%;
+    margin:auto 30px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align:left;
+}
+.webdev{
+    width:25%;
+    float:left;
+    margin:auto 30px;
+
+}
+.help{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+
+/************* CONTACT ME BUTTON CODE ************/
+.btn {
+    background: #BFEAF5;
+    background-image: -webkit-linear-gradient(top, #BFEAF5, #82AAE3);
+    background-image: -moz-linear-gradient(top, #BFEAF5, #82AAE3);
+    background-image: -ms-linear-gradient(top, #BFEAF5, #82AAE3);
+    background-image: -o-linear-gradient(top, #BFEAF5, #82AAE3);
+    background-image: linear-gradient(to bottom, #BFEAF5, #82AAE3);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #51d6d6);
+    background-image: -moz-linear-gradient(top, #66BFBF, #51d6d6);
+    background-image: -ms-linear-gradient(top, #66BFBF, #51d6d6);
+    background-image: -o-linear-gradient(top, #66BFBF, #51d6d6);
+    background-image: linear-gradient(to bottom, #66BFBF, #51d6d6);
+    text-decoration: none;
+  }
